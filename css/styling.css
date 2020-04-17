@@ -1,0 +1,244 @@
+*{
+    font-size: 1em;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+ul{
+    list-style: none;
+}
+
+                                /*Styling for header*/
+#container{
+    width: 1050px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto;
+
+}
+
+#header{
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.clear_div{
+    clear: both;
+}
+
+#brand_logo img{
+    width: 100px;
+    height: 90px;
+    float: left;
+    padding-right: 0;
+
+}
+
+#brand_text h1{
+    float: left;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    color: rgb(55, 0, 128);  
+}
+
+#brand_text a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: rgb(55, 0, 128); 
+    
+}
+
+#search_box{
+    float: right;
+    margin-top: 25px;
+    background: linear-gradient(#E4F2B9,#B7E953);
+    background: -webkit-linear-gradient(#E4F2B9,#B7E953);
+    background: -o-linear-gradient(#E4F2B9,#B7E953);
+    background: -moz-linear-gradient(#E4F2B9,#B7E953);
+    background: -ms-linear-gradient(#E4F2B9,#B7E953);
+    width: 400px;
+    height: 50px;
+    
+
+    
+}
+
+#search_box .search_text{
+    float: left;
+    width: 170px;
+    margin: 10px 0 4px 10px; 
+    font-size: 0.9rem;
+    padding: 5px;
+    color: #E36A0C;
+    background: white url("images/search.png") left center no-repeat;
+    border: 1px solid #c8d03e;
+
+}
+
+#search_box .search_submit{
+    background: rgb(55, 0, 128);
+    color: white;
+    padding: 5px;
+    border-style: none;
+    float: right;
+    margin: 10px 20px 0 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+                             /*Styling for Nav menu*/
+ #container #nav_menu{
+    height: 70px;
+    background: linear-gradient(#f8f594,#d5d533);
+    background: -webkit-linear-gradient(#f8f594,#d5d533);
+    background: -o-linear-gradient(#f8f594,#d5d533);
+    background: -moz-linear-gradient(#f8f594,#d5d533);
+    background: -ms-linear-gradient(#f8f594,#d5d533);
+}
+
+#nav_menu ul{
+    padding: 25px 0;
+    margin-left: 80px;
+}
+
+#nav_menu ul li{
+    float: left;
+    padding: 0 40px;
+    height: 20px;
+    border-right: 1px solid rgb(55, 0, 128);
+
+}
+
+#nav_menu ul li:last-child{
+    border-right: none;
+}
+
+#nav_menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: rgb(55, 0, 128);
+    -webkit-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a.active_link {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(55, 0, 128);
+}
+
+
+                             /*Styling for Intro section*/
+#intro{
+    background: linear-gradient(#e5f2bb, #b7e952);
+    background: -webkit-linear-gradient(#e5f2bb, #b7e952);
+    background: -o-linear-gradient(#e5f2bb, #b7e952);
+    background: -moz-linear-gradient(#e5f2bb, #b7e952);
+    background: -ms-linear-gradient(#e5f2bb, #b7e952);
+    padding: 30px;
+    margin: 15px 0;
+
+}
+
+#intro h2{
+    font-size: 2.2rem;
+    color: #316901;
+    font-weight: normal;
+}
+
+#intro p{
+    font-size: 1.2rem;
+    color: #628f19;
+    font-weight: normal;
+    text-align: justify;
+}
+
+
+                             /*Styling for sidebars*/
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+
+.sidebar h3{
+    color: rgb(55, 0, 128);
+    font-size: 1.6rem;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: rgb(55, 0, 128);
+    font-size: 1.1rem;
+    -webkit-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+.sidebar a:hover, .sidebar a:active{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar li{
+    padding: 5px 0 15px 20px;
+    list-style-image: url("images/arrow.png");
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#rightsidebar li{
+    padding: 20px 0 10px 60px;
+    background: url("images/tick.png") left center no-repeat;
+}
+
+
+                             /*Styling for footer*/
+#footer{
+    height: 60px;
+    background: linear-gradient(#f6f390,#d5d533);
+    background: -webkit-linear-gradient(#f6f390,#d5d533);
+    background: -o-linear-gradient(#f6f390,#d5d533);
+    background: -moz-linear-gradient(#f6f390,#d5d533);
+    background: -ms-linear-gradient(#f6f390,#d5d533);
+    padding: 20px 20px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+
+#footer a{
+    text-decoration: none;
+    color: black;
+}
